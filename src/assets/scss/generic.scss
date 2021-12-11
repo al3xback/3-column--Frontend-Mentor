@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $primary-font-family;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 15/16 +0em;
+	font-weight: $regular-font-weight;
+	color: $very-dark-cyan;
+	line-height: 25/15 +0em;
+	background-color: $main-bg;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+[class^="icon-"] {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.icon-sedans,
+.icon-suvs,
+.icon-luxury {
+	display: inline-block;
+	width: 64/15 +0em;
+	height: 40/15 +0em;
+}
+
+.icon-sedans {
+	background-image: url('~@/assets/images/icons/sedans.svg');
+}
+
+.icon-suvs {
+	background-image: url('~@/assets/images/icons/suvs.svg');
+}
+
+.icon-luxury {
+	background-image: url('~@/assets/images/icons/luxury.svg');
+}
