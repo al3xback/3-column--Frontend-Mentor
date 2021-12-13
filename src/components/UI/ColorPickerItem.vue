@@ -4,6 +4,7 @@
 			:class="buttonClasses"
 			:style="{ 'background-color': color.colorCode }"
 			@click="selectColor"
+			aria-label="select-color"
 		></button>
 	</li>
 </template>
