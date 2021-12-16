@@ -1,16 +1,10 @@
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
 body {
-	font-family: $primary-font-family;
+	font-family: $ff-primary;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: $main-bg;
+	background-color: $bg-main;
 	font-size: 15/16 +0em;
-	font-weight: $regular-font-weight;
+	font-weight: $fw-regular;
 	color: $very-dark-cyan;
 	line-height: 25/15 +0em;
 }

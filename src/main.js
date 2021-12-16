@@ -1,7 +1,6 @@
 import { createApp } from 'vue';
 
-import './assets/css/reset.css';
-import './assets/scss/generic.scss';
+import './assets/scss/main.scss';
 
 import BaseContainer from './components/UI/BaseContainer.vue';
 import BaseCard from './components/UI/BaseCard.vue';

@@ -80,8 +80,8 @@ export default {
 
 .card__title {
 	margin-bottom: 25/40 +0em;
-	font-family: $heading-font-family;
-	font-weight: $bold-font-weight;
+	font-family: $ff-heading;
+	font-weight: $fw-bold;
 	font-size: 40/15 +0em;
 	line-height: 48/40 +0em;
 	color: $very-light-gray;

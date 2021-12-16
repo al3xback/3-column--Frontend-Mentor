@@ -1,4 +1,4 @@
-$main-bg: #f2f2f2;
+$bg-main: #f2f2f2;
 $bright-orange: hsl(31, 77%, 52%);
 $dark-cyan: hsl(184, 100%, 22%);
 $very-dark-cyan: hsl(179, 100%, 13%);
@@ -6,10 +6,10 @@ $white: hsl(0, 0%, 100%);
 $white-transparent: hsla(0, 0%, 100%, 0.75);
 $very-light-gray: hsl(0, 0%, 95%);
 
-$primary-font-family: 'Lexend Deca', sans-serif;
-$heading-font-family: 'Big Shoulders Display', cursive;
-$regular-font-weight: 400;
-$bold-font-weight: 700;
+$ff-primary: 'Lexend Deca', sans-serif;
+$ff-heading: 'Big Shoulders Display', cursive;
+$fw-regular: 400;
+$fw-bold: 700;
 
 :export {
     orange: $bright-orange;
