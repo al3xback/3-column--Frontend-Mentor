@@ -8,9 +8,9 @@ module.exports = {
 				`
 			},
 			css: {
-				modules: {
-					localIdentName: 'css-[hash:hex:7]'
-				},
+				modules: process.env.NODE_ENV === 'production'
+				? { localIdentName: 'css-[hash:hex:7]' }
+				: { localIdentName: '[name]-[local]' }
 			}
 		}
 	},
