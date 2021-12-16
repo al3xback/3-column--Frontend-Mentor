@@ -1,6 +1,7 @@
 <template>
 	<li :class="$style['color-picker__list-item']">
 		<button
+			type="button"
 			:class="buttonClasses"
 			:style="{ 'background-color': color.colorCode }"
 			@click="selectColor"

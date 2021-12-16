@@ -25,6 +25,7 @@ dd {
 ul[class],
 ol[class] {
 	list-style: none;
+	padding: 0;
 }
 
 /* Set core body defaults */
@@ -53,6 +54,10 @@ button,
 textarea,
 select {
 	font: inherit;
+}
+
+button {
+	cursor: pointer;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
