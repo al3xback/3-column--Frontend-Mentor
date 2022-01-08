@@ -15,6 +15,6 @@ module.exports = {
 		}
 	},
 	publicPath: process.env.NODE_ENV === 'production'
-		? '/3-column-preview-card-component--Frontend-Mentor/'
+		? '/3-column-card--Frontend-Mentor/'
 		: '/'
 };
