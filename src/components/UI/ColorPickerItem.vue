@@ -1,5 +1,5 @@
 <template>
-	<li :class="$style['color-picker__list-item']">
+	<li :class="$style['color-picker__item']">
 		<button
 			type="button"
 			:class="buttonClasses"
@@ -24,14 +24,14 @@ export default {
 	},
 	methods: {
 		selectColor() {
-			this.$emit('select-color', this.color.id, this.color.colorCode);
+			this.$emit('select-color', this.color.id);
 		},
 	},
 };
 </script>
 
 <style module lang="scss">
-.color-picker__list-item,
+.color-picker__item,
 .color-picker__button {
 	display: flex;
 	flex: 1;

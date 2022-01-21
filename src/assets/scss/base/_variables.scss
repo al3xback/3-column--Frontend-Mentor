@@ -1,18 +1,19 @@
-$bg-main: #f2f2f2;
-$bright-orange: hsl(31, 77%, 52%);
-$dark-cyan: hsl(184, 100%, 22%);
-$very-dark-cyan: hsl(179, 100%, 13%);
+$primary-1: hsl(31, 77%, 52%);
+$primary-2: hsl(184, 100%, 22%);
+$primary-3: hsl(179, 100%, 13%);
+$primary-4: #f2f2f2;
+
+$neutral-1: hsl(0, 0%, 95%);
 $white: hsl(0, 0%, 100%);
-$white-transparent: hsla(0, 0%, 100%, 0.75);
-$very-light-gray: hsl(0, 0%, 95%);
+$white-a-75: hsla(0, 0%, 100%, 0.75);
 
 $ff-primary: 'Lexend Deca', sans-serif;
-$ff-heading: 'Big Shoulders Display', cursive;
-$fw-regular: 400;
-$fw-bold: 700;
+$ff-secondary: 'Big Shoulders Display', cursive;
+$fw-400: 400;
+$fw-700: 700;
 
 :export {
-    orange: $bright-orange;
-    darkCyan: $dark-cyan;
-    veryDarkCyan: $very-dark-cyan;
+	orange: $primary-1;
+	darkCyan: $primary-2;
+	veryDarkCyan: $primary-3;
 }

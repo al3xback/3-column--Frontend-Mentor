@@ -31,6 +31,6 @@
 }
 
 .btn--link {
-	color: $bright-orange;
+	color: $primary-1;
 }
 </style>

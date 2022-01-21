@@ -1,5 +1,5 @@
 <template>
-	<div :class="$style.card" :style="{ 'background-color': cardBg }">
+	<div :class="$style.card" :style="{ 'background-color': bg }">
 		<div :class="$style['card__head']">
 			<slot name="head"></slot>
 		</div>
@@ -9,13 +9,13 @@
 		<div :class="$style['card__foot']">
 			<slot name="foot"></slot>
 		</div>
-		<slot name="misc"></slot>
+		<slot name="feature"></slot>
 	</div>
 </template>
 
 <script>
 export default {
-	props: ['cardBg'],
+	props: ['bg'],
 };
 </script>
 

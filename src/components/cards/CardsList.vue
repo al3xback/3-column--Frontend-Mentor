@@ -1,20 +1,20 @@
 <template>
 	<div :class="$style.cards">
-		<card-list-item
+		<card-item
 			v-for="card in cards"
 			:key="card.id"
 			:card="card"
 			@select-color="onSelectColor"
-		></card-list-item>
+		></card-item>
 	</div>
 </template>
 
 <script>
-import CardListItem from './CardListItem.vue';
+import CardItem from './CardItem.vue';
 
 export default {
 	components: {
-		CardListItem,
+		CardItem,
 	},
 	data() {
 		return {
@@ -89,7 +89,7 @@ export default {
 	max-width: 360/15 +0em;
 	overflow: hidden;
 	border-radius: 8/15 +0em;
-	color: $white-transparent;
+	color: $white-a-75;
 }
 
 @media (min-width: 820/16 +0em) {

@@ -1,11 +1,11 @@
 body {
+	background-color: $primary-4;
 	font-family: $ff-primary;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: $bg-main;
 	font-size: 15/16 +0em;
-	font-weight: $fw-regular;
-	color: $very-dark-cyan;
+	font-weight: $fw-400;
+	color: $primary-3;
 	line-height: 25/15 +0em;
 }
 
@@ -40,13 +40,13 @@ a {
 }
 
 .icon-sedans {
-	background-image: url('~@/assets/images/icons/sedans.svg');
+	background-image: url('~@/assets/img/icons/sedans.svg');
 }
 
 .icon-suvs {
-	background-image: url('~@/assets/images/icons/suvs.svg');
+	background-image: url('~@/assets/img/icons/suvs.svg');
 }
 
 .icon-luxury {
-	background-image: url('~@/assets/images/icons/luxury.svg');
+	background-image: url('~@/assets/img/icons/luxury.svg');
 }
