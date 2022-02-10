@@ -4,8 +4,7 @@
 			v-for="card in cards"
 			:key="card.id"
 			:card="card"
-			@select-color="onSelectColor"
-		></card-item>
+			@select-color="onSelectColor"></card-item>
 	</div>
 </template>
 

@@ -4,8 +4,7 @@
 			v-for="color in colors"
 			:key="color.id"
 			:color="color"
-			@select-color="selectColor"
-		></color-picker-item>
+			@select-color="selectColor"></color-picker-item>
 	</ul>
 </template>
 
@@ -22,7 +21,7 @@ export default {
 		selectColor(colorId) {
 			this.$emit('select-color', colorId);
 		},
-	}
+	},
 };
 </script>
 

@@ -5,8 +5,7 @@
 			:class="buttonClasses"
 			:style="{ 'background-color': color.colorCode }"
 			@click="selectColor"
-			aria-label="select-color"
-		></button>
+			aria-label="select-color"></button>
 	</li>
 </template>
 
@@ -47,7 +46,7 @@ export default {
 }
 
 .color-picker__button::before {
-	content: "";
+	content: '';
 	width: 7/15 +0em;
 	height: 12/15 +0em;
 	border: solid #fff;
