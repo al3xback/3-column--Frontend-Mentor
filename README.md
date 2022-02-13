@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/al3xback/3-column-card--Frontend-Mentor
-- Live Site URL: https://al3xback.github.io/3-column-card--Frontend-Mentor
+- Solution URL: https://github.com/al3xback/3-column-vue-FM
+- Live Site URL: https://al3xback.github.io/3-column-vue-FM
 
 ## My process
 
