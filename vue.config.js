@@ -16,7 +16,5 @@ module.exports = {
 		},
 	},
 	publicPath:
-		process.env.NODE_ENV === 'production'
-			? '/3-column--Frontend-Mentor/'
-			: '/',
+		process.env.NODE_ENV === 'production' ? '/3-column-vue-FM/' : '/',
 };
