@@ -85,16 +85,16 @@ export default {
 .cards {
 	display: flex;
 	flex-direction: column;
-	max-width: 360/15 +0em;
+	max-width: em(360, 15);
 	overflow: hidden;
-	border-radius: 8/15 +0em;
-	color: $white-a-75;
+	border-radius: em(8, 15);
+	color: $white-75;
 }
 
-@media (min-width: 820/16 +0em) {
+@media (min-width: em(820)) {
 	.cards {
 		flex-direction: row;
-		max-width: 920/15 +0em;
+		max-width: em(920, 15);
 	}
 }
 </style>

@@ -25,8 +25,8 @@
 <style module lang="scss">
 .footer {
 	flex: none;
-	padding: 12/12 +0em 0;
-	font-size: 12/16 +0em;
+	padding: em(12, 12) 0;
+	font-size: em(12, 16);
 	text-align: center;
 }
 

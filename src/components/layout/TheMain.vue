@@ -25,7 +25,7 @@ export default {
 	flex-shrink: 1;
 	min-height: 0;
 	overflow: hidden;
-	padding: 24/16 +0em 0;
+	padding: em(24, 16) 0;
 }
 
 @media (min-width: 48em) {

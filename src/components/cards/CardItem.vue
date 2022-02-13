@@ -135,11 +135,11 @@ export default {
 }
 
 .card__title {
-	margin-bottom: 25/40 +0em;
+	margin-bottom: em(25, 40);
 	font-family: $ff-secondary;
-	font-size: 40/15 +0em;
+	font-size: em(40, 15);
 	font-weight: $fw-700;
-	line-height: 48/40 +0em;
+	line-height: em(48, 40);
 	color: $neutral-1;
 	text-transform: uppercase;
 }

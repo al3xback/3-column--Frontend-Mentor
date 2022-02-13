@@ -21,12 +21,12 @@ export default {
 
 <style module lang="scss">
 .card {
-	padding: 48/15 +0em;
+	padding: em(48, 15);
 }
 
 .card__head {
 	display: flex;
-	margin-bottom: 35/15 +0em;
+	margin-bottom: em(35, 15);
 }
 
 .card__body {
@@ -34,12 +34,12 @@ export default {
 }
 
 .card__foot {
-	margin-top: 25/15 +0em;
+	margin-top: em(25, 15);
 }
 
-@media (min-width: 820/16 +0em) {
+@media (min-width: em(820)) {
 	.card__foot {
-		margin-top: 83/15 +0em;
+		margin-top: em(83, 15);
 	}
 }
 </style>

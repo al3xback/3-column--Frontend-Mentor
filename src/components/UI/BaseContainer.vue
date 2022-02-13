@@ -6,6 +6,6 @@
 
 <style module lang="scss">
 .container {
-	padding: 0 24/16 +0em;
+	padding: 0 em(24);
 }
 </style>

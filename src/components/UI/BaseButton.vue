@@ -24,10 +24,10 @@ export default {
 <style module lang="scss">
 .btn {
 	display: inline-block;
-	padding: 10/15 +0em 30/15 +0em;
+	padding: em(10, 15) em(30, 15);
 	background-color: $white;
-	border: 2/15 +0em solid transparent;
-	border-radius: 25/15 + 0em;
+	border: em(2, 15) solid transparent;
+	border-radius: em(25, 15);
 	font: inherit;
 	color: $primary-3;
 	transition: all 0.3s;

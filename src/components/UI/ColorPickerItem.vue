@@ -41,17 +41,17 @@ export default {
 	align-items: center;
 	padding: 0;
 	border: 0;
-	width: 24/15 +0em;
-	height: 20/15 +0em;
+	width: em(24, 15);
+	height: em(20, 15);
 }
 
 .color-picker__button::before {
 	content: '';
-	width: 7/15 +0em;
-	height: 12/15 +0em;
+	width: em(7, 15);
+	height: em(12, 15);
 	border: solid #fff;
-	border-width: 0 3/15 +0em 3/15 +0em 0;
-	transform: translate(0, -1/15 +0em) rotate(45deg);
+	border-width: 0 em(3, 15) em(3, 15) 0;
+	transform: translate(0, em(-1, 15)) rotate(45deg);
 	opacity: 0;
 	visibility: hidden;
 }
