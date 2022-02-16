@@ -139,8 +139,8 @@ export default {
 	font-family: $ff-secondary;
 	font-size: em(40, 15);
 	font-weight: $fw-700;
-	line-height: em(48, 40);
-	color: $neutral-1;
+	color: $neutral-2;
 	text-transform: uppercase;
+	line-height: em(48, 40);
 }
 </style>

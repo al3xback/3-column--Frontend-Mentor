@@ -88,7 +88,7 @@ export default {
 	max-width: em(360, 15);
 	overflow: hidden;
 	border-radius: em(8, 15);
-	color: $white-75;
+	color: $neutral-1;
 }
 
 @media (min-width: em(820)) {
